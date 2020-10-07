@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftHamcrest",
+    platforms: [
+        .iOS(.v9)
+    ],
     products: [
         .library(name: "SwiftHamcrest", targets: ["SwiftHamcrest"]),
     ],
